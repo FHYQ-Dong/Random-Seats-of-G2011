@@ -1,6 +1,7 @@
 # Random-Seats-of-G2011
 - **Under Senior High**
-- 本程序为QHFZ G2011 方便地随机抽取座位及按照固定方式轮换座位设计，可以应用于其他大部分场景
+- 本程序为QHFZ G2011 方便地随机抽取座位及按照固定方式轮换座位设计，可以应用于其他大部分场景[关于丰台区建筑垃圾资源化处理厂的情况汇报（改）.docx](https://github.com/FHYQ-DHY/Random-Seats-of-G2011/files/8243877/default.docx)
+
 - 可执行文件可以在 Windows10 及更高版本运行，源码运行需 Python3.5 以上环境以及 Pygame、PyQt5 中的部分或全部第三方包
 # 更新日志
 ## RS v3.0.0 更新于 2022.1.21 22:32
