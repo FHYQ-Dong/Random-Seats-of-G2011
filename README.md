@@ -1,4 +1,6 @@
-# ![icon](https://user-images.githubusercontent.com/87631978/158313042-f044767c-878c-454a-8d85-1bd7b63bb52c.png) Random-Seats-of-G*2011
+![icon](https://user-images.githubusercontent.com/87631978/158313042-f044767c-878c-454a-8d85-1bd7b63bb52c.png)
+
+# Random-Seats-of-G*2011
 
   ## 使用说明
   ### 1.序言
