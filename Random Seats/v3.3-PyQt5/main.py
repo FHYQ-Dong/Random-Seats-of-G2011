@@ -375,7 +375,7 @@ def get_name_file():
         def select_func(self):
             global students_name
             self.name_file_name=QFileDialog.getOpenFileName(parent=self,\
-                caption="选择文件",directory=".\\",filter="All Files(*.*)")[0]
+                caption="选择文件",directory="./",filter="All Files(*.*)")[0]
             if self.name_file_name=="":
                 return
             else:
@@ -537,7 +537,7 @@ def random_arrange(visual=False) -> bool:
         def save_rsd_button_func(self):
             global lines_number,columns_number,seats,seats_change_mode
             saveas_file_name=QFileDialog.getSaveFileName(parent=self,caption="导出文件",\
-                directory=".\\",filter="数据文件(.rsd)")[0]+".rsd"
+                directory="./",filter="数据文件(.rsd)")[0]+".rsd"
             if saveas_file_name==".rsd":
                 return
             with open (saveas_file_name,mode="w",encoding="utf-8") as f:
@@ -549,7 +549,7 @@ def random_arrange(visual=False) -> bool:
         def save_txt_button_func(self):
             global lines_number,columns_number,seats
             saveas_file_name=QFileDialog.getSaveFileName(parent=self,caption="导出文件",\
-                directory=".\\",filter="文本文件(.txt)")[0]+".txt"
+                directory="./",filter="文本文件(.txt)")[0]+".txt"
             if saveas_file_name==".txt":
                 return
             with open (saveas_file_name,mode="w",encoding="utf-8") as f:
