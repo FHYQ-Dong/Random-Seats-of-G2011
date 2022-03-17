@@ -9,7 +9,7 @@ from PyQt5.QtGui import QIcon,QFont,QImage,QPixmap
 from PyQt5.QtCore import QBasicTimer,QCoreApplication,Qt
 
 NONE=0
-FileDir=".\\files\\" if len(argv)==1 else "..\\files\\"
+FileDir="./files/" if len(argv)==1 else "../files/"
 
 QCoreApplication.setAttribute(Qt.AA_EnableHighDpiScaling)
 
@@ -18,7 +18,7 @@ def select_file(file_mode:str) -> str : # file_mode例子："A文件(*.a);;B文�
     App=QApplication(argv)
     Widget=QWidget()
     FileName=QFileDialog.getOpenFileName(parent=Widget,\
-        caption="选择文件",directory=".\\",filter=file_mode)
+        caption="选择文件",directory="./",filter=file_mode)
     return FileName[0]
 
 # 弹出提示
