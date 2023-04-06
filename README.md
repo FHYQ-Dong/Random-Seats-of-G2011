@@ -2,7 +2,7 @@
 
    # Random-Seats-of-G*2011
    
-   **Copyright (c) 2022-至今 FHYQ-DHY**
+   **Copyright (c) 2022-至今 FHYQ-Dong**
    
    **说明：`v3.1` 与 `v3.2` 的生命周期已经结束，不再维护，请使用 `v3.3`.**
 
